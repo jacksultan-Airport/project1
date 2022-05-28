@@ -1,0 +1,31 @@
+Clicker:
+
+
+
+<Clicker>:
+    cols:2
+    TextInput:
+        text: root.my_text
+
+    Button:
+        text: "Copy"
+        on_release:
+        on_press: root.on_button_click_copy()
+    Button:
+        text: "coins"
+        on_press: root.on_button_click_getCoins()
+    Button:
+        text: "10 zl"
+        on_press: root.on_button_click_getTenZl()
+    Button:
+        text: "20 zl"
+        on_press: root.on_button_click_getTwentyZl()
+    Button:
+        text: "50 zl"
+        on_press: root.on_button_getFiftyZl()
+    Button:
+        text: "Reset"
+        on_press: root.on_button_click_reset()
+
+
+
